@@ -1,0 +1,65 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Node / Angular generated files ###
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Python generated files ###
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+### Local configuration and OS files ###
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+### Generated local security assessment evidence ###
+# Publish the summarized findings in the root README, not machine-specific output.
+transaction_security_report.md
+transaction_security_report_previous.md
+transaction_security_history.json
+TRANSACTION_SECURITY_TEST_README.md
